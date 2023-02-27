@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 className="font-markoone font-normal not-italic text-left text-orange_A700 w-[auto]"
                 variant="body1"
               >
-                Relasto
+                Ricowell
               </Text>
             </div>
             <div className="mobile-menu">
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <div className="flex flex-row gap-[6px] items-start justify-start w-[77px]">
                   <a
                     className="cursor-pointer font-manrope font-semibold text-[16px] text-gray_900 text-left w-[auto]"
-                    href="javascript:"
+                    href="/"
                   >
                     Home
                   </a>
@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <div className="flex flex-row gap-[6px] items-start justify-start w-[77px]">
                   <a
                     className="cursor-pointer font-manrope font-semibold text-[16px] text-gray_900 text-left w-[auto]"
-                    href="javascript:"
+                    href="/listing"
                   >
                     Listing
                   </a>
@@ -68,7 +68,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                 <div className="flex flex-row gap-[6px] items-start justify-start w-[77px]">
                   <a
                     className="cursor-pointer font-manrope font-semibold text-[16px] text-gray_900 text-left w-[auto]"
-                    href="javascript:"
+                    href="/agentlist"
                   >
                     Agents
                   </a>
@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             <li className="sm:w-[100%] sm:my-[10px] w-[auto] my-[1px]">
               <a
                 className="cursor-pointer font-manrope font-semibold text-[16px] text-center text-gray_900"
-                href="javascript:"
+                href="/listing"
               >
                 Property
               </a>
@@ -91,7 +91,7 @@ const Header: React.FC<HeaderProps> = (props) => {
             <li className="sm:w-[100%] sm:my-[10px] w-[auto] my-[1px]">
               <a
                 className="cursor-pointer font-manrope font-semibold text-[16px] text-gray_900 text-left"
-                href="javascript:"
+                href="/blogpage"
               >
                 Blog
               </a>
